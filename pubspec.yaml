@@ -1,4 +1,4 @@
-name: field_validator
+name: field_validation
 description: This package provides an easy way to validate Your Email, PAN, Pic code, Mobile Number And All Types of Documents like Indian Government Documents like Aadhar,PAN and LLPIN..etc This is often useful to avoid the use of RegEx for validating the user inputs which maynot work in some scenarios, this package written purely in dart will validate the numbers through CheckSum values.
 version: 0.0.1
 homepage: https://github.com/chandan123-pradhan/Field-Validator

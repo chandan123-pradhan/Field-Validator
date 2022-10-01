@@ -1,4 +1,4 @@
-# field_validator
+# field_validation
 
 This package provides an easy way to validate Your Email, PAN, Pic code, Mobile Number And All Types of Documents like Indian Government Documents like Aadhar,PAN and LLPIN..etc This is often useful to avoid the use of RegEx for validating the user inputs which maynot work in some scenarios, this package written purely in dart will validate the numbers through CheckSum values.
 
@@ -14,7 +14,7 @@ To use this package:
     dependencies:
       flutter:
         sdk: flutter
-      field_validator: ^0.0.1
+      field_validation: ^0.0.1
 ```
 
 ## Available Methods
@@ -46,7 +46,8 @@ cardNumberValidate() - For Validate Card Number.
 
 ```dart
   
-import 'package:field_validator/Field_Validator.dart';
+
+import 'package:field_validation/Source_Code/FlutterValidation.dart';
 import 'package:flutter/material.dart';
 
 void main() {
@@ -67,9 +68,8 @@ class MyApp extends StatelessWidget {
 }
 
 class HomePage extends StatelessWidget {
-    
 //Creating Object of the FieldValidator class.
-  FieldValidator validator = new FieldValidator();
+  FlutterValidation validator = new FlutterValidation();
 
   @override
   Widget build(BuildContext context) {
